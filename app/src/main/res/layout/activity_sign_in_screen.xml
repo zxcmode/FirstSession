@@ -78,5 +78,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:srcCompat="@drawable/ic_google_logo" />
+
+    <ImageButton
+        android:id="@+id/rectangle_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/ic_btn"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+    <ImageButton
+        android:id="@+id/rectangle_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_btn"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_5" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
