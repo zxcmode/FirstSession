@@ -21,8 +21,8 @@ class SignInScreenActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        auth = FirebaseAuth.getInstance()
-        supportActionBar?.hide()
+        auth = FirebaseAuth.getInstance() // firebase
+        supportActionBar?.hide() // hide bar
 
 
         binding.btnSignIn.setOnClickListener {
@@ -35,9 +35,20 @@ class SignInScreenActivity : AppCompatActivity() {
         }
     }
 
+    public override fun onStart() {
+        super.onStart()
+        // Check if user is signed in (non-null) and update UI accordingly.
+        val currentUser = auth.currentUser
+        updateUI(currentUser)
+    }
+
+    private fun updateUI(currentUser: FirebaseUser?) {
+
+    }
+
     private fun SignIn()
     {
-        auth.signInWithEmailAndPassword(binding.edtEmail.toString(), binding.edtPassword.toString())
+        auth.signInWithEmailAndPassword(binding.edtEmail.text.toString(), binding.edtPassword.text.toString())
             .addOnCompleteListener(this) {
                task -> if (task.isSuccessful)
             {
@@ -52,7 +63,7 @@ class SignInScreenActivity : AppCompatActivity() {
 
     private fun SignUp()
     {
-        auth.createUserWithEmailAndPassword(binding.edtEmail.toString(), binding.edtPassword.toString())
+        auth.createUserWithEmailAndPassword(binding.edtEmail.text.toString(), binding.edtPassword.text.toString())
             .addOnCompleteListener(this) {
                     task -> if (task.isSuccessful)
             {
