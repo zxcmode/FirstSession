@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1075507356783",
+    "project_id": "firstsession-cd6da",
+    "storage_bucket": "firstsession-cd6da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075507356783:android:585f507b08957cb7dcd99a",
+        "android_client_info": {
+          "package_name": "com.monkeydluffyd.firstsession"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075507356783-80rvvqln06u7dbvjk8lnm13rj3piosua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk9fs9l2F1cqsyub6V_QKI6pSOpJ1D3XA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075507356783-80rvvqln06u7dbvjk8lnm13rj3piosua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

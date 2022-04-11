@@ -8,7 +8,7 @@
     tools:context=".SignInScreenActivity">
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -76,40 +76,41 @@
         android:textAppearance="@style/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnGoogle"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword"
         app:srcCompat="@drawable/ic_google_logo" />
 
     <ImageButton
-        android:id="@+id/rectangle_5"
+        android:id="@+id/btnSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="222dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/ic_btn"
         android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/editText3"
-        app:layout_constraintStart_toStartOf="@+id/editText3"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintEnd_toEndOf="@+id/edtPassword"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
 
     <ImageButton
-        android:id="@+id/rectangle_"
+        android:id="@+id/btnSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@drawable/ic_btn"
         android:elevation="4dp"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_5"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_5" />
+        app:layout_constraintEnd_toEndOf="@+id/btnSignIn"
+        app:layout_constraintStart_toStartOf="@+id/btnSignIn"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignIn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

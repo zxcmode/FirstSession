@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_background.xml" value="0.184" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_btn.xml" value="0.23" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_email.xml" value="0.23" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_google_logo.xml" value="0.2355" />
         <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_icon.xml" value="0.2355" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_password.xml" value="0.23" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_rec.xml" value="0.23" />
         <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_screen.xml" value="0.2355" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/drawable/ic_video_calling_3.xml" value="0.184" />
         <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Denis/AndroidStudioProjects/FirstSession/app/src/main/res/layout/activity_sign_in_screen.xml" value="0.264" />
       </map>
     </option>
   </component>
