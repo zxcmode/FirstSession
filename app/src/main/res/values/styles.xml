@@ -19,4 +19,20 @@
         </item>
     </style>
 
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            22sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
 </resources>
